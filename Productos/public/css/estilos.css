@@ -1,0 +1,120 @@
+h1{
+  font-size: 2.5rem;
+  color: #034e9e;
+  text-align: center;
+  margin-top: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  border: 1.5px solid #d1d9e6;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+input:focus, textarea:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+button {
+  padding: 12px 20px;
+  background: linear-gradient(45deg, #007BFF, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #0056b3, #667585);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 86, 179, 0.6);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 86, 179, 0.4);
+}
+
+.btn {
+  padding: 12px 20px;
+  background: linear-gradient(45deg, #fbfbfc, #b6b6b8);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 5px 15px rgba(12, 12, 12, 0.4);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+  background: linear-gradient(45deg, #e6e7e7, #9d9e9e);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(47, 48, 49, 0.6);
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: none;
+  color: #444;
+}
+
+th {
+  background-color: #f0f4ff;
+  font-weight: 700;
+  color: #0056b3;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+tr {
+  background: #fefefe;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+tr:hover {
+  background-color: #e4ebff;
+  box-shadow: 0 4px 12px rgba(0,86,179,0.15);
+}
+
+.actions {
+  text-align: right;
+  font-weight: 600;
+  color: #0056b3;
+}
+
